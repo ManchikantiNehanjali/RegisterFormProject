@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+
+
+}
+body {
+  background-color:#C3FF99;
+}
+
+.Cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.form {
+  display: flex;
+  align-items: center;
+
+  background-color: white;
+  width: 700px;
+  height: 500px;
+
+  border: 3px solid black;
+
+
+}
+label {
+  letter-spacing: 1.2px;
+  font-size: 15px;
+
+}
+.subtb {
+  padding: 10px 15px;
+  border: 2px solid black;
+
+  border-radius: 10px;
+  background-color: white;
+}
+
+.Form1 {
+  margin-top: 10px;
+}
+
+
+
+
+.table {
+  border: 2px solid black;
+  margin: 30px auto;
+}
+
+
+.th {
+  padding: 10px;
+  text-align: center;
+}
+
+.Subdata {
+  text-align: center;
+  margin-top: 3rem;
+}
+input:invalid:focus {
+  border: 3px solid red;
+}

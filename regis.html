@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form Project</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="java.js" defer></script>
+
+
+  </head>
+  <body>
+
+    <div class="Cont">
+      <form class="form" id="form">
+        <h1 align="center"><b>Registration Form</b></h1>
+
+        <table class="Form1" cellspacing="20px">
+          <tr>
+            <td><label for="name">Name :</label></td>
+            <td>
+              <input
+                class="subtb" type="text"  name="name"  id="name"  placeholder="Enter Name" required=" "/>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="email">E-mail:</label></td>
+            <td>
+              <input
+          type="email" class="subtb"  name="email"  id="email"  placeholder="Enter Email"  required=" "/>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="name">Password :</label></td>
+            <td>
+              <input
+                class="subtb"  type="password"  name="password"  id="password"  placeholder="Enter Password" required=" "/>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="dob">Date Of Birth :</label></td>
+            <td>
+              <input
+                style="width: 220px"  class="subtb"  type="date"  name="dob"  id="dob"  required=" "  />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="checkbox" name="att" id="att" />
+              <label for="checkbox">Accespt Terms & Conditions..</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button type="submit">Submit</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+
+    <div class="Dataput">
+      <h1 class="Subdata"><b>DATA ENTRIES</b></h1>
+      <div id="tablent"></div>
+    </div>
+  </body>
+</html>
